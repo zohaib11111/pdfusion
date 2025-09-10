@@ -1,0 +1,7 @@
+appwrite
+PyMuPDF==1.26.4
+google-cloud-vision
+Pillow
+pypdf>=3.0.0
+tabula-py
+pandas

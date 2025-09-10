@@ -1,0 +1,5 @@
+{
+  "name": "PDFusion",
+  "description": "Transform any PDF into clean, structured Markdown with intelligent text extraction, OCR processing, and table reconstruction.",
+  "requestFramePermissions": []
+}
