@@ -30,6 +30,9 @@ export const CommonDetail = ({data}: PropInterface) => {
                                     </div>
                                 </div>
                             }
+                            else{
+                                return <></>
+                            }
                         })
                     }
                 </p>

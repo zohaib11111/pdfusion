@@ -7,16 +7,16 @@ export const LaunchDetail = () => {
     const {id} = useParams<{ id?: string }>();
     const [detail, setDetail] = useState<any | undefined>(undefined);
 
-    const fetchDetail = async () => {
-        await axios.get(`https://api.spacexdata.com/v4/launches/${id}`).then(res => {
-            console.log('res.data', res.data);
-            setDetail(res.data)
-        })
-    }
 
     useEffect(() => {
+        const fetchDetail = async () => {
+            await axios.get(`https://api.spacexdata.com/v4/launches/${id}`).then(res => {
+                console.log('res.data', res.data);
+                setDetail(res.data)
+            })
+        }
         fetchDetail()
-    }, [])
+    }, [id])
 
     if (!detail) {
         return <h1 className="text-center my-4 font-bold text-lg">Loading Details</h1>

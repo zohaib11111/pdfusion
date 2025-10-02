@@ -15,7 +15,7 @@ export const Rockets = () => {
         if (!rockets.data.length) {
             getRockets({options: {page: 1, limit: 10}})
         }
-
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const items = rockets.data.map((item, index) => {

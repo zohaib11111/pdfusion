@@ -18,6 +18,7 @@ export const Launches = () => {
        if(!launches.data.length){
            getLaunches({options: {page: 1, limit: 10}})
        }
+       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (

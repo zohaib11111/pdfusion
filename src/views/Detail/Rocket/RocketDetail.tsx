@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {
     useParams
 } from "react-router-dom";
@@ -8,30 +8,19 @@ import {FlickerImages} from "./FlickerImages";
 import {Stages} from "./Stage";
 import {CommonDetail} from "../ShowCommonInfo";
 
-interface DetailInterface {
-    first_stage: any;
-    second_stage: any;
-    id: string,
-    flickr_images: Array<any>,
-    payload_weights: Array<any>,
-    description: string
-}
-
-
 export const RocketDetail = () => {
     const {id} = useParams<{ id?: string }>();
     const [detail, setDetail] = useState<any | undefined>(undefined);
 
-    const fetchDetail = async () => {
-        await axios.get(`https://api.spacexdata.com/v4/rockets/${id}`).then(res => {
-            setDetail(res.data)
-        }).finally(() => {
-        })
-    }
-
     useEffect(() => {
+        const fetchDetail = async () => {
+            await axios.get(`https://api.spacexdata.com/v4/rockets/${id}`).then(res => {
+                setDetail(res.data)
+            }).finally(() => {
+            })
+        }
         fetchDetail()
-    }, [])
+    }, [id])
     if (!detail) return <h1 className="text-center my-4 font-bold text-lg">Loading Details</h1>
     let stages = [];
     if (detail.first_stage) stages.push(detail.first_stage)
